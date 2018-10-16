@@ -8,8 +8,23 @@
     <title>Document</title>
 </head>
 <body>
-    <canvas id="myCanvas" width="200" height="100"> </canvas>
-    <input type="file" name="myFile">
+    <canvas id="myCanvas" width="750" height="500" style="border:5px solid #c5351f;">
+      
+    </canvas>
+    <input id="selectedImage" type="file" >
 
+    <div class="suwaki">
+        <p class="polecenia"> <b> ZMIEŃ JASNOŚĆ: </b> </p>
+        <input class="slider" id="brightness" type="range" min="1" max="100" value="50"  >
+
+        <p class="polecenia"> <b> ZMIEŃ NASYCENIE: </b> </p>
+        <input class="slider" id="saturation"  type="range" min="1" max="100" value="50"  >
+
+
+        <p class="polecenia"> <b> ZMIEŃ KONTRAST: </b> </p>
+        <input class="slider" id="contrast"  type="range" min="1" max="100" value="50"  >
+    </div>
+    
+<script src="script.js"></script>
 </body>
 </html>
